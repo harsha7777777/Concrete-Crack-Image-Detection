@@ -26,12 +26,7 @@ Dataset Source: Kaggle Dataset Name: Surface Crack Detection 🔗 https://ww
 * Format: .jpg
 * Resolution: 227×227 pixels
 * Balanced classes: Yes
-📂 Required Folder Structure
-After downloading the dataset, place it in the following format:
 
-data/
- ├── Positive/
- └── Negative/
 
 🧠 Model Approach
 A custom Convolutional Neural Network (CNN) was built using TensorFlow/Keras. The model includes:
@@ -63,14 +58,3 @@ This project evaluates several key metrics:
 * Loss curves
 * Confusion matrix (optional to add)
 These metrics help validate the model’s reliability for real-world use.
-
-🖼 Example Predictions
-The notebook includes predictions such as:
-* Crack Detected ✔️
-* No Crack Detected ❌
-You can add your own sample images to a folder like:
-
-samples/
- ├── crack1.jpg
- └── nocrack1.jpg
-And display predictions using the notebook.
